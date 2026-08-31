@@ -53,6 +53,6 @@ Two real bugs were caught and documented during testing rather than quietly fixe
 - **SQL fan-out in the temp-table pipeline** — joining `WatchHistory`, `MyList`, and `Rating` directly on `TitleID` before aggregating multiplied row counts across tables. Fixed by pre-aggregating each relation in its own CTE before joining.
 - **Trigger firing order** — PostgreSQL fires same-event `BEFORE INSERT` triggers alphabetically by name, which meant `trg_EnforceKidsMaturity` intercepted a test meant to isolate `trg_WatchHistoryEpisodeConsistency`. Re-run with an Adults profile to isolate the intended trigger.
 
-## Author
 
-Built by Summer for CS 727, Relational Database Implementation and Applications.
+
+
