@@ -1,10 +1,10 @@
 # Netflix Relational Database
 
-A full relational database design and implementation of a Netflix-style streaming platform, built for **CS 727 — Relational Database Implementation and Applications**.
+A full relational database design and implementation of a Netflix-style streaming platform, built for ** Relational Database Implementation and Applications**.
 
 Everything here is real and runnable: a 13-table PostgreSQL schema, ~1,225 rows of reproducible mock data, 26 indexes, 5 views, a temp-table ETL pipeline, 4 functions, 3 stored procedures, and 5 triggers — each with its actual SQL and captured output.
 
-**[Live dashboard →](#)** *(paste your published dashboard link here)*
+**(https://claude.ai/code/artifact/0495c613-1ca7-4e36-9f42-3c2ce448d92f)** *(paste your published dashboard link here)*
 
 ## What's in here
 
